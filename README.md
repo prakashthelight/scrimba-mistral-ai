@@ -1,2 +1,2 @@
 # scrimba-mistral-ai
-Introl to Mistral AI
+Intro to Mistral AI
