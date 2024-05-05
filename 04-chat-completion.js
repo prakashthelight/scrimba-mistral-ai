@@ -17,13 +17,6 @@ const chatResponse = await client.chat({
     { role: 'user', content: 'Give me two lines for capital of India.' },
   ],
   temperature: 0.5, // controls the randomness of the output.
-  responseFormat: {
-    type: 'json_object',
-  },
 });
-
-// for await (const message of chatResponse) {
-//   console.log(message.choices[0].delta.content);
-// }
 
 console.log(chatResponse.choices[0].message.content);
